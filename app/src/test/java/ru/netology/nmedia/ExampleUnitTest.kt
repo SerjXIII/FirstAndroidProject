@@ -1,4 +1,4 @@
-package com.example.first
+package ru.netology.nmedia
 
 import org.junit.Test
 
