@@ -9,4 +9,9 @@
     <string name="likes" translatable="false">10</string>
     <string name="shares" translatable="false">5</string>
     <string name="views" translatable="false">5</string>
+    <string name="menu_remove">Remove</string>
+    <string name="post_text">Post Text</string>
+    <string name="description_post_save">Save Button</string>
+    <string name="error_empty_content">Content can\'t be empty</string>
+    <string name="menu_edit">Edit</string>
 </resources>
