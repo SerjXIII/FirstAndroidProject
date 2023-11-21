@@ -46,6 +46,6 @@ class PostViewModel : ViewModel() {
         }
     }
     fun clearEdited() {
-        edited = MutableLiveData(empty)
+        edited.value = empty
     }
 }
