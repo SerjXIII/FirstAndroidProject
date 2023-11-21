@@ -12,4 +12,7 @@
     <string name="description_post_save">Кнопка сохранения</string>
     <string name="error_empty_content">Поле не может быть пустым</string>
     <string name="menu_edit">Редактировать</string>
+    <string name="description_post_edit_cancel">Кнопка отмены редактирования</string>
+    <string name="edit_message">Редактируемое сообщение</string>
+    <string name="edit_icon">Иконка редактирования</string>
 </resources>

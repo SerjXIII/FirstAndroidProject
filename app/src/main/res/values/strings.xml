@@ -14,4 +14,7 @@
     <string name="description_post_save">Save Button</string>
     <string name="error_empty_content">Content can\'t be empty</string>
     <string name="menu_edit">Edit</string>
+    <string name="description_post_edit_cancel">Cancel Edit Button</string>
+    <string name="edit_message">Edit Message</string>
+    <string name="edit_icon">Edit Icon</string>
 </resources>
