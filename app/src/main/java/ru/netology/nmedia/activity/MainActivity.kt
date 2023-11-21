@@ -75,6 +75,7 @@ class MainActivity : AppCompatActivity() {
             binding.content.setText("")
             binding.content.clearFocus()
             AndroidUtils.hideKeyboard(it)
+            viewModel.clearEdited()
         }
     }
 }
