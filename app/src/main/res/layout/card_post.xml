@@ -42,15 +42,27 @@
         app:layout_constraintTop_toBottomOf="@id/author"
         tools:text="@sample/posts.json/data/published" />
 
-    <ImageButton
+    <com.google.android.material.button.MaterialButton
         android:id="@+id/menu"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:background="@android:color/transparent"
         android:contentDescription="@string/menu"
+        android:insetTop="0dp"
+        android:insetRight="0dp"
+        android:insetBottom="0dp"
+        android:minWidth="0dp"
+        android:minHeight="0dp"
+        android:paddingStart="0dp"
+        android:paddingTop="0dp"
+        android:paddingEnd="0dp"
+        android:paddingBottom="0dp"
+        app:icon="@drawable/ic_menu_24"
+        app:iconPadding="0dp"
+        app:iconTint="@color/grey"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/avatar"
-        app:srcCompat="@drawable/ic_menu_24" />
+        app:layout_constraintTop_toBottomOf="@id/barrier2"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <androidx.constraintlayout.widget.Barrier
         android:id="@+id/barrier1"
@@ -112,7 +124,7 @@
         android:layout_marginTop="@dimen/common_marge_16"
         android:background="@android:color/transparent"
         android:checkable="true"
-        android:contentDescription="@string/like"
+        android:contentDescription="@string/share"
         android:insetTop="0dp"
         android:insetRight="0dp"
         android:insetBottom="0dp"
@@ -121,7 +133,6 @@
         android:paddingStart="16dp"
         android:paddingTop="0dp"
         android:paddingEnd="0dp"
-        android:paddingRight="0dp"
         android:paddingBottom="0dp"
         android:textColor="@color/grey"
         app:icon="@drawable/ic_share_24"
@@ -148,7 +159,6 @@
         android:paddingStart="0dp"
         android:paddingTop="0dp"
         android:paddingEnd="0dp"
-        android:paddingRight="0dp"
         android:paddingBottom="0dp"
         android:textColor="@color/grey"
         app:icon="@drawable/ic_view_24"
@@ -156,6 +166,6 @@
         app:iconTint="@color/grey"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@id/barrier2"
-        tools:text="10" />
+        android:text="@string/views" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
